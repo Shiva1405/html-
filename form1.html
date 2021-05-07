@@ -1,0 +1,59 @@
+<html>
+    <head>
+    </head>
+    <body >
+    <form action="thanks.html" method="get/post">
+        <fieldset>
+            <legend>
+                Personal information form
+            </legend>
+            NAME:  &nbsp;  <input type="text">
+            <br>
+                
+                
+                      <label for="psw">Password</label>
+                    <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                  
+                      <input type="submit" value="Submit">
+                    </form>
+                  </div>
+                  
+                  <div id="message">
+                    <h3>Password must contain the following:</h3>
+                    <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+                    <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+                    <p id="number" class="invalid">A <b>number</b></p>
+                    <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+                  </div>
+                <br>
+                Enter the gender : <br> <br>
+                <input type="radio" name="gedername">
+                male <br>
+                <input type="radio" name="gedername">
+                female <br>
+                Enter the sports : <br> <br>
+                <input type="checkbox" name="sports">
+                cricket <br>
+                <input type="checkbox" name="sports">
+                hockey <br>
+                <input type="checkbox" name="sports">
+                football <br><br>
+               Identification proof:<br> <br>
+                <input type="file"> <br> <br>
+                
+                <select name="" id="" value="">
+                    <option value="a">date</option>
+                    <option value="a">07/05/2021</option>
+                </select><br><br>
+                <textarea rows="5" cols="10">
+                    Descriptions
+                </textarea><br><br>
+                <input type="submit" value="Click to submit"><br><br>
+                <input type="reset" value="Click to reset"><br><br>
+            
+
+        </fieldset>
+    </form>
+    </body>
+</html>
+<!---- form , fieldset, legend,input -->
